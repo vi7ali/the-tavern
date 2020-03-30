@@ -1,0 +1,15 @@
+{
+  "name": "the-tavern",
+  "version": "1.0.0",
+  "description": "the-tavern restaurant website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitaly Osipov <vi7ali@gmail.com> (https://github.com/vi7ali/)",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
