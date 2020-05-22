@@ -1,6 +1,6 @@
 'use strict'
 
-import pageLoad from './page-load';
+import home from './home';
 import menu from './menu';
 import contact from './contact';
 
@@ -19,7 +19,7 @@ function clearContent() {
 function goHome() {
   clearContent();
   homeBtn.classList.add('nav__button--active');
-  content.innerHTML = pageLoad();
+  content.innerHTML = home();
 }
 
 function goMenu() {
@@ -34,8 +34,8 @@ function goContact() {
   content.innerHTML = contact();
 }
 
-content.innerHTML = pageLoad();
-
-homeBtn.addEventListener('click', pageLoad, false);
+homeBtn.addEventListener('click', goHome, false);
 menuBtn.addEventListener('click', goMenu, false);
 contactBtn.addEventListener('click', goContact, false);
+
+goHome();

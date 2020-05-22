@@ -1,11 +1,8 @@
 
-function pageLoad() {
-  const homeBtn = document.getElementById('home-btn');
-  homeBtn.classList.add('nav__button--active');
-
+function home() {
   const htmlContent = `
   <div class="content__inner">
-      <h1 class="content__title">About us</h1>
+      <h1 class="content__title">Hello !</h1>
       <div class="content__text">        
         <p>"On the other hand, we denounce with righteous
           indignation and dislike men who are so beguiled and demoralized by the charms
@@ -41,4 +38,4 @@ function pageLoad() {
   return htmlContent;
 };
 
-export default pageLoad
+export default home
