@@ -1,8 +1,5 @@
 
 function contact() {
-  const contactBtn = document.getElementById('contact-btn');
-  contactBtn.classList.add('nav__button--active');
-  console.log('Hello from contact');  
   const htmlContent = `
   <div class="content__inner">
       <h1 class="content__title">contact info</h1>

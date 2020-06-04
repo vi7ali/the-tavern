@@ -1,6 +1,5 @@
 
 function menu() {
-  console.log('Hello from menu');  
   const htmlContent = `
   <div class="content__inner">
       <h1 class="content__title">Menu</h1>
