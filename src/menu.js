@@ -1,25 +1,97 @@
 
 function menu() {
   const htmlContent = `
-  <div class="content__inner">
+    <div class="content__inner">
       <h1 class="content__title">Menu</h1>
-      <div class="content__text">        
-        <p>"On the other hand, we denounce with righteous
-          indignation and dislike men who are so beguiled and demoralized by the charms
-          of pleasure of the moment, so blinded by desire, that they cannot foresee the
-          pain and trouble that are bound to ensue; and equal blame belongs to those who
-          fail in their duty through weakness of will, which is the same as saying through
-          shrinking from toil and pain. These cases are perfectly simple and easy to
-          distinguish. In a free hour, when our power of choice is untrammelled and when
-          nothing prevents our being able to do what we like best, every pleasure is to be
-          welcomed and every pain avoided. But in certain circumstances and owing to the claims
-          of duty or the obligations of business it will frequently occur that pleasures have
-          to be repudiated and annoyances accepted. The wise man therefore always holds in
-          these matters to this principle of selection: he rejects pleasures to secure other
-          greater pleasures, or else he endures pains to avoid worse pains."
-        </p>
-    </div> 
-  </div>   
+      <div class="menu">
+        <!-- 1st Menu column -->        
+        <div class="menu__column">          
+          <div class="menu__item">
+            <div class="meal">
+              meal 1
+            </div>
+            <div class="price">
+              20
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 2
+            </div>
+            <div class="price">
+              15
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 3
+            </div>
+            <div class="price">
+              10
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 4
+            </div>
+            <div class="price">
+              50
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 5
+            </div>
+            <div class="price">
+              45
+            </div>
+          </div>
+        </div>
+        <!-- 2nd Menu column -->
+        <div class="menu__column">
+          <div class="menu__item">
+            <div class="meal">
+              meal 6
+            </div>
+            <div class="price">
+              35
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 7
+            </div>
+            <div class="price">
+              25
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 8
+            </div>
+            <div class="price">
+              15
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 9
+            </div>
+            <div class="price">
+              69
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="meal">
+              meal 10
+            </div>
+            <div class="price">
+              100
+            </div>
+          </div>                
+        </div> <!--/2nd Menu column -->
+    </div> <!--/menu -->
+    </div> <!--/content_inner -->   
   `;  
   return htmlContent;
 };

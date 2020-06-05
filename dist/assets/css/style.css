@@ -36,6 +36,7 @@ p {
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
+  
 }
 
 /*=========  Header  ==========*/
@@ -106,12 +107,33 @@ background-color: rgba(101, 147, 255, 0.129);
 }
 
 .content__inner {  
-  width: 60%;
+  width: 70%;  
+  
 }
 
 .content__title {
+  position: relative;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 1em;  
+}
+
+.content__title::after {
+  position: absolute;
+  width: 30%;
+  left: 35%;
+  bottom: -15%;
+  height: 1px;
+  
+  content: "";  
+  
+  background-color: rgb(12, 9, 187);
+  opacity: 0.3; 
+}
+
+.content__text {
+  text-align: left;
+  line-height: 1.6;  
 }
 
 /*=========  Menu  ==========*/
@@ -126,8 +148,8 @@ background-color: rgba(101, 147, 255, 0.129);
   flex-direction: column;
   flex: 1 1 content;      
   
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
   
   overflow: hidden;
 }

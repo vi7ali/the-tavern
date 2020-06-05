@@ -38,4 +38,4 @@ homeBtn.addEventListener('click', goHome, false);
 menuBtn.addEventListener('click', goMenu, false);
 contactBtn.addEventListener('click', goContact, false);
 
-//goHome();
+goHome();
