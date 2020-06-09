@@ -2,7 +2,11 @@
 function menu() {
   const htmlContent = `
     <div class="content__inner">
-      <h1 class="content__title">Menu</h1>
+      <div class="logo__inner">
+        <div class="logo__img" id="logo">
+          <img src="assets/images/the-tavern-logo.png" alt="" srcset="">
+        </div>    
+      </div>
       <div class="menu">
         <!-- 1st Menu column -->        
         <div class="menu__column">          
