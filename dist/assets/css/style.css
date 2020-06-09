@@ -61,8 +61,7 @@ p {
   content: "";
 
   background-color: rgb(12, 9, 187);
-  opacity: 0.1;
-  
+  opacity: 0.1;  
 }
 
 
@@ -124,6 +123,28 @@ background-color: rgba(101, 147, 255, 0.129);
 .content__text {
   text-align: left;
   line-height: 1.6;  
+}
+
+.content__contacts {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.map {  
+  width: 50%;
+  border-right: 2px dotted rgba(12, 9, 187, .1);
+}
+
+.map__img {
+  width: 100%;
+  padding-right: 1em;
+}
+
+.contacts {
+  flex: 1 0 auto;
+  text-align: right;
+  padding-top: 15%;  
 }
 
 /*=========  Menu  ==========*/
