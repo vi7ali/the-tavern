@@ -94,7 +94,7 @@ function menu() {
             </div>
           </div>                
         </div> <!--/2nd Menu column -->
-    </div> <!--/menu -->
+      </div> <!--/menu -->
     </div> <!--/content_inner -->   
   `;  
   return htmlContent;
